@@ -139,6 +139,7 @@ const showFull = computed(() => props.isCollapsed || props.isHovering)
 .side-group__list.is-open {
   max-height: 320px;
   opacity: 1;
+  overflow-y: auto;
 }
 
 // Элементы списка с задержкой
